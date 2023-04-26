@@ -177,3 +177,268 @@ li {
   background-color: rgba(192, 183, 232, 0.33);
   height: 116.5px;
 }
+
+
+.into h2 span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.into h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.into button {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #343045;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+}
+
+
+.into p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.shape {
+  margin-left: 30px;
+}
+
+.girl {
+  width: 70%;
+  margin-bottom: 100px;
+}
+
+
+main {
+  background: #4b4b50;
+}
+
+
+.fa-location-dot {
+  font-size: 60px;
+  color: #C0B7E8;
+}
+
+.fa-phone-volume {
+  font-size: 60px;
+  color: #C0B7E8;
+}
+
+.fa-envelope {
+  color: #C0B7E8;
+  font-size: 60px;
+}
+
+.local {
+  padding: 50px 100px;
+  border-radius: 40px;
+  border: 2px solid #5a595b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.local h2 {
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.local p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+
+
+.introduction h2 {
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.introduction p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.introduction span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.compo {
+  margin-top: 40px;
+}
+
+.group {
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about h2 {
+  margin-top: 100px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.about p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.about span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.about button {
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #343045;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border: none;
+}
+
+.card h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card button {
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #343045;
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+}
+
+.card {
+  margin-top: 100px;
+  background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+
+.card img {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.techhnologist h2 {
+  padding-top: 50px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.techhnologist p {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
