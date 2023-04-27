@@ -554,6 +554,7 @@ main {
 }
 
 .join h2 {
+  margin-top: 100px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -564,6 +565,7 @@ main {
 }
 
 .join p {
+  margin-bottom: 50px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
@@ -574,12 +576,95 @@ main {
 }
 
 
-
-.join{
-  background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 100px;
+.frame {
+  position: absolute;
+  width: 0px;
+  height: 196px;
 }
+
+.join {
+  background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+}
+.section7{
+  margin-top: 100px;
+}
+
+.world button span{
+  font-size: 18px;
+  font-weight: 700;
+  color: #555564;
+}
+
+
+/* =================  Footer  qismi ==================== */
+
+.landing{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.13em;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+footer{
+  margin-top: 100px;
+}
+
+.servis {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.stemp {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.width1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.world button{
+  background: #C0B7E8;
+  border: none;
+  border-radius: 60%;
+  padding: 10px 20px;
+}
+.fa-brands{
+  font-size: 20px;
+}
+.your{
+  margin-top: 30px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  border: none;
+  padding: 15px 30px;
+}
+
+
+
+
 
 
 
@@ -705,5 +790,21 @@ border-radius: 100px;
 
   .lorem p {
     text-align: center;
+  }
+  .design div{
+    display: grid;
+  }
+  .design button{
+    margin-left: 70px;
+  }
+  .design p{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .join h2{
+    font-size: 30px;
+  }
+  .join p{
+    font-size: 30px;
   }
 }
