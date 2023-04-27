@@ -16,6 +16,7 @@ body {
   align-items: center;
   gap: 20px;
 }
+
 .nav_logo_near_text {
   color: #8176af;
 }
@@ -77,13 +78,6 @@ li {
   line-height: 56px;
   letter-spacing: 0em;
   text-align: left;
-
-  /* font-family: Montserrat;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 49px;
-  letter-spacing: 0em;
-  text-align: left; */
   color: white;
 }
 
@@ -103,12 +97,11 @@ li {
   border: none;
   padding: 17px 43px;
 }
-.add {
+
+.fa-flip {
   font-size: 70px;
-  /* font-weight: 700px; */
   color: white;
   text-align: center;
-  /* margin-left: 40px; */
 }
 
 .btn_pointer {
@@ -116,6 +109,7 @@ li {
   align-items: center;
   gap: 60px;
 }
+
 .img_left {
   border-radius: 100px 100px 100px 240px;
   border: 10px solid;
@@ -124,12 +118,11 @@ li {
 .nav_the_end {
   padding: 33px;
   border-radius: 90px;
-  background: radial-gradient(
-      50% 2900.76% at 50% 53.89%,
+  background: radial-gradient(50% 2900.76% at 50% 53.89%,
       rgba(58, 52, 86, 0.95) 0%,
-      #211e2e 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      #211e2e 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
 }
 
 .the_add {
@@ -168,7 +161,7 @@ li {
   align-items: center;
 }
 
-.the_p{
+.the_p {
   margin-left: 20px;
 }
 
@@ -441,4 +434,276 @@ main {
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
+}
+
+.section3 {
+  margin-top: 100px;
+}
+
+.tech {
+  background-image: url(./img/Mask\ group\ \(7\).png);
+  background-repeat: no-repeat;
+}
+
+.tech h2 {
+  margin-top: 120px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.tech p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section4 {
+  margin-top: 100px;
+}
+
+.hydra {
+  width: 70%;
+}
+
+.build h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.build h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.fa-arrow-right {
+  color: #ffffff;
+  width: 300px;
+}
+
+.build div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.lorem p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.design button {
+  background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+  padding: 60px 70px;
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.design span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.section6 {
+  margin-top: 100px;
+}
+
+.design div {
+  display: flex;
+  align-items: center;
+}
+
+.design p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+
+.fa-2xs {
+  font-size: 60px;
+}
+
+.join h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.join p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+
+.join{
+  background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+  .introduction {
+    display: grid;
+  }
+
+  .img_left {
+    width: 90%;
+  }
+
+  .group {
+    width: 90%;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .nav_right_text {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .right_btn {
+    padding: 17px 17px;
+  }
+
+  .fa-flip {
+    font-size: 50px;
+  }
+
+  .introduction h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .introduction p {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .introduction span {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .about h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  .about p {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .about span {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .about button {
+    margin-left: 70px;
+  }
+
+  .right_p {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .list-item {
+    font-size: 11px;
+  }
+
+  .nav_logo_near_text {
+    font-size: 40px;
+  }
+
+  .right_btn {
+    margin-left: 20px;
+  }
+
+  .hydra {
+    width: 50%;
+    margin-left: 70px;
+  }
+
+  .build h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .build h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .build div {
+    display: grid;
+    gap: 0;
+  }
+
+  .component {
+    margin-left: 70px;
+  }
+
+  .lorem p {
+    text-align: center;
+  }
 }
